@@ -1,91 +1,74 @@
 # 📡 Arduino Radar
 
-> Un piccolo radar funzionante realizzato con Arduino, un sensore ad ultrasuoni e un servomotore — progetto scolastico.
+Piccolo progetto scolastico realizzato con **Arduino Uno** che simula un radar usando un sensore a ultrasuoni, un servomotore, un display LCD e alcuni LED.
 
-***
+---
 
-## 🎯 Descrizione
+## 🎯 Obiettivo
 
-Questo progetto simula il funzionamento di un radar: un sensore **HC-SR04** montato su un **servomotore SG90** ruota di 180° rilevando ostacoli. I dati vengono inviati via seriale e visualizzati in tempo reale su Processing.
+Il progetto rileva la distanza degli ostacoli tramite il sensore **HC-SR04**.  
+Il servomotore sposta il sensore per coprire più direzioni, mentre Arduino elabora i dati e li mostra sul display LCD.
 
-***
+---
 
-## 🛠️ Componenti
+## 🛠️ Componenti usati
 
-| Componente | Quantità |
-|---|---|
-| Arduino Uno | 1 |
-| Sensore ultrasuoni HC-SR04 | 1 |
-| Servomotore SG90 | 1 |
-| Jumper wire | q.b. |
-| Breadboard | 1 |
+- Arduino Uno
+- Sensore ultrasuoni HC-SR04
+- Servomotore SG90
+- Display LCD 16x2
+- Potenziometro da 10k
+- LED
+- Resistenze
+- Breadboard e cavetti jumper
 
-***
-
-## 🔌 Schema di collegamento
-
-```
-HC-SR04        Arduino
--------        -------
-VCC    ──────  5V
-GND    ──────  GND
-Trig   ──────  Pin 10
-Echo   ──────  Pin 11
-
-SG90           Arduino
-----           -------
-Segnale ─────  Pin 6
-VCC     ─────  5V
-GND     ─────  GND
-```
-
-***
-
-## 💻 Installazione
-
-**Requisiti:**
-- [Arduino IDE](https://www.arduino.cc/en/software)
-- Libreria `Servo.h` *(già inclusa nell'IDE)*
-- [Processing 4](https://processing.org/) *(per la visualizzazione)*
-
-**Passi:**
-
-1. Clona la repository
-   ```bash
-   git clone https://github.com/tuo-username/arduino-radar.git
-   ```
-2. Apri `radar.ino` con Arduino IDE
-3. Carica lo sketch sulla board
-4. Apri `radar_display.pde` con Processing ed eseguilo
-
-***
-
-## 📂 Struttura del progetto
-
-```
-arduino-radar/
-├── radar.ino            # Sketch Arduino
-├── radar_display.pde    # Visualizzazione Processing
-└── README.md
-```
-
-***
+---
 
 ## ⚙️ Come funziona
 
-1. Il servomotore ruota da **0° a 180°** e viceversa
-2. A ogni angolo, l'HC-SR04 misura la distanza dall'ostacolo più vicino
-3. I dati `(angolo, distanza)` vengono inviati sulla porta seriale
-4. Processing li legge e disegna l'interfaccia grafica del radar in tempo reale
+1. Il servomotore ruota il sensore.
+2. Il sensore misura la distanza dagli oggetti davanti a sé.
+3. Arduino elabora i valori letti.
+4. Il display LCD mostra le informazioni utili.
+5. I LED possono segnalare la presenza di ostacoli o lo stato del sistema.
 
-***
+---
 
-## 📸 Demo
+## 🔌 Collegamenti
 
-> *(aggiungi qui una foto del circuito o un GIF della visualizzazione)*
+Il circuito comprende:
 
-***
+- HC-SR04 collegato ad Arduino per inviare e ricevere l’impulso ultrasonico
+- Servomotore collegato a un pin digitale PWM
+- LCD 16x2 collegato ai pin digitali di Arduino
+- Potenziometro usato per regolare il contrasto del display
+- LED con resistenze per la segnalazione visiva
+
+---
+
+## 💻 Software
+
+Per questo progetto serve principalmente:
+
+- **Arduino IDE** per scrivere e caricare il codice sulla scheda
+
+### Opzionale
+- **Processing 4**, solo se si vuole creare una visualizzazione grafica del radar sul computer tramite comunicazione seriale
+
+---
+
+## 📷 Anteprima progetto
+
+Schema elettrico e montaggio realizzati per la simulazione del progetto.
+
+---
+
+## 📚 Scopo didattico
+
+Questo progetto è stato realizzato per scuola con l’obiettivo di unire elettronica, programmazione e uso dei sensori in un’applicazione pratica e semplice.
+
+---
 
 ## 📄 Licenza
 
-Progetto scolastico — uso libero a scopo didattico.
+Progetto a scopo didattico.
