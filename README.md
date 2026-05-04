@@ -38,9 +38,9 @@ Il sistema permette di:
 | Servomotore SG90 | 1 |
 | Display LCD 16x2 | 1 |
 | Potenziometro 10k | 1 |
-| LED rossi | 3 |
-| Resistenze | varie |
-| Breadboard | 2 |
+| LED rossi | 4 |
+| Resistenze da 180Ω | 5 |
+| Breadboard | 1 |
 | Jumper wire | q.b. |
 
 ***
