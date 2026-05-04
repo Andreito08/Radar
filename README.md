@@ -87,12 +87,15 @@ Radar/
 
 ## 📸 Anteprima
 
-Il progetto include sia il montaggio del circuito su breadboard sia lo schema elettrico della simulazione.
+Il progetto include il montaggio del circuito su breadboard e lo schema elettrico della simulazione.
 
-> Qui puoi aggiungere:
-> - una foto del circuito
-> - uno screenshot della simulazione
-> - una foto del display acceso
+### Foto del risultato
+
+<img width="1306" height="816" alt="Circuito su breadboard" src="https://github.com/user-attachments/assets/ef6c6cec-2283-45e0-a87f-b4ef8eb4dd5d" />
+
+### Schema elettrico
+
+<img width="1460" height="1134" alt="Schema elettrico della simulazione" src="https://github.com/user-attachments/assets/8650d35c-423a-453f-9834-fa96ae76d599" />
 
 ***
 
