@@ -1,74 +1,125 @@
-# 📡 Arduino Radar
+# 📡 Arduino Radar Project
 
-Piccolo progetto scolastico realizzato con **Arduino Uno** che simula un radar usando un sensore a ultrasuoni, un servomotore, un display LCD e alcuni LED.
+> Un piccolo progetto scolastico che trasforma **Arduino Uno** in un mini radar con sensore a ultrasuoni, servomotore, LED e display LCD.
 
----
+<p align="center">
+  Un progetto semplice, ma capace di unire elettronica, programmazione e automazione in un unico sistema.
+</p>
 
-## 🎯 Obiettivo
+***
 
-Il progetto rileva la distanza degli ostacoli tramite il sensore **HC-SR04**.  
-Il servomotore sposta il sensore per coprire più direzioni, mentre Arduino elabora i dati e li mostra sul display LCD.
+## ✨ Panoramica
 
----
+Questo progetto realizza un **radar elettronico** in miniatura.
+Il sensore a ultrasuoni rileva la presenza di ostacoli, il servomotore sposta il sensore per scandire l'area, mentre Arduino elabora i dati e li mostra sul display LCD.
 
-## 🛠️ Componenti usati
+È un lavoro pensato per la scuola, ma con una presentazione pulita e d'impatto, simile a quella delle repository migliori.
 
-- Arduino Uno
-- Sensore ultrasuoni HC-SR04
-- Servomotore SG90
-- Display LCD 16x2
-- Potenziometro da 10k
-- LED
-- Resistenze
-- Breadboard e cavetti jumper
+***
 
----
+## 🎯 Obiettivo del progetto
 
-## ⚙️ Come funziona
+L'obiettivo è simulare il comportamento di un radar reale in modo semplice e didattico, utilizzando componenti base di Arduino.
 
-1. Il servomotore ruota il sensore.
-2. Il sensore misura la distanza dagli oggetti davanti a sé.
+Il sistema permette di:
+- rilevare ostacoli a distanza;
+- mostrare informazioni sul display;
+- segnalare lo stato tramite LED;
+- comprendere meglio il funzionamento di sensori, attuatori e circuiti elettronici.
+
+***
+
+## 🛠️ Componenti utilizzati
+
+| Componente | Quantità |
+|---|---:|
+| Arduino Uno | 1 |
+| Sensore HC-SR04 | 1 |
+| Servomotore SG90 | 1 |
+| Display LCD 16x2 | 1 |
+| Potenziometro 10k | 1 |
+| LED rossi | 3 |
+| Resistenze | varie |
+| Breadboard | 2 |
+| Jumper wire | q.b. |
+
+***
+
+## ⚙️ Funzionamento
+
+Il progetto segue una logica molto semplice:
+
+1. Il **servomotore** ruota il sensore in diverse direzioni.
+2. Il sensore **HC-SR04** misura la distanza degli oggetti presenti davanti a sé.
 3. Arduino elabora i valori letti.
-4. Il display LCD mostra le informazioni utili.
-5. I LED possono segnalare la presenza di ostacoli o lo stato del sistema.
+4. Il **display LCD 16x2** mostra le informazioni utili.
+5. I **LED** forniscono una segnalazione visiva.
 
----
+In questo modo si ottiene un piccolo sistema di rilevamento capace di unire movimento, misura e visualizzazione dei dati.
 
-## 🔌 Collegamenti
+***
 
-Il circuito comprende:
+## 🔌 Struttura del circuito
 
-- HC-SR04 collegato ad Arduino per inviare e ricevere l’impulso ultrasonico
-- Servomotore collegato a un pin digitale PWM
-- LCD 16x2 collegato ai pin digitali di Arduino
-- Potenziometro usato per regolare il contrasto del display
-- LED con resistenze per la segnalazione visiva
+Il circuito è composto da più sezioni collegate tra loro:
 
----
+- **Sezione sensore**, dedicata alla misurazione della distanza.
+- **Sezione movimento**, con servomotore per l'orientamento del radar.
+- **Sezione output**, con LCD e LED per visualizzare i risultati.
+- **Sezione controllo**, gestita interamente da Arduino Uno.
 
-## 💻 Software
+Questa organizzazione rende il progetto ordinato, leggibile e facile da spiegare anche in una presentazione scolastica.
 
-Per questo progetto serve principalmente:
+***
 
-- **Arduino IDE** per scrivere e caricare il codice sulla scheda
+## 📂 Struttura della repository
 
-### Opzionale
-- **Processing 4**, solo se si vuole creare una visualizzazione grafica del radar sul computer tramite comunicazione seriale
+```bash
+arduino-radar/
+├── radar.ino
+├── README.md
+└── assets/
+```
 
----
+> `radar.ino` contiene il codice principale del progetto.
 
-## 📷 Anteprima progetto
+***
 
-Schema elettrico e montaggio realizzati per la simulazione del progetto.
+## 📸 Anteprima
 
----
+Il progetto include sia il montaggio del circuito su breadboard sia lo schema elettrico della simulazione.
 
-## 📚 Scopo didattico
+> Qui puoi aggiungere:
+> - una foto del circuito
+> - uno screenshot della simulazione
+> - una foto del display acceso
 
-Questo progetto è stato realizzato per scuola con l’obiettivo di unire elettronica, programmazione e uso dei sensori in un’applicazione pratica e semplice.
+***
 
----
+## 📚 Finalità didattica
+
+Questo lavoro è stato realizzato come progetto scolastico per applicare in pratica concetti di:
+
+- elettronica di base;
+- programmazione con Arduino;
+- utilizzo dei sensori;
+- controllo di attuatori;
+- gestione di output visivi.
+
+***
+
+## 🚀 Perché questo progetto è interessante
+
+Anche se è un progetto piccolo, mostra bene come pochi componenti possano lavorare insieme per creare un sistema completo.
+
+È un ottimo esempio di progetto scolastico perché è:
+- semplice da capire;
+- visivamente efficace;
+- facile da dimostrare;
+- utile per collegare teoria e pratica.
+
+***
 
 ## 📄 Licenza
 
-Progetto a scopo didattico.
+Progetto realizzato a scopo didattico.
