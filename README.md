@@ -13,7 +13,7 @@
 Questo progetto realizza un **radar elettronico** in miniatura.
 Il sensore a ultrasuoni rileva la presenza di ostacoli, il servomotore sposta il sensore per scandire l'area, mentre Arduino elabora i dati e li mostra sul display LCD.
 
-È un lavoro pensato per la scuola, ma con una presentazione pulita e d'impatto, simile a quella delle repository migliori.
+È un lavoro pensato per la scuola.
 
 ***
 
@@ -75,10 +75,10 @@ Questa organizzazione rende il progetto ordinato, leggibile e facile da spiegare
 ## 📂 Struttura della repository
 
 ```bash
-arduino-radar/
-├── radar.ino
+Radar/
+├── LICENSE
 ├── README.md
-└── assets/
+└── radar.ino
 ```
 
 > `radar.ino` contiene il codice principale del progetto.
@@ -122,4 +122,4 @@ Anche se è un progetto piccolo, mostra bene come pochi componenti possano lavor
 
 ## 📄 Licenza
 
-Progetto realizzato a scopo didattico.
+Progetto realizzato a scopo didattico, con licenza MIT.
