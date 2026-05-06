@@ -39,7 +39,8 @@ Il sistema permette di:
 | Display LCD 16x2 | 1 |
 | Potenziometro 10k | 1 |
 | LED rossi | 4 |
-| Resistenze da 180Ω | 5 |
+| Resistenze da 180Ω | 4 |
+| Resistenze da 220Ω | 1 |
 | Breadboard | 1 |
 | Jumper wire | q.b. |
 
