@@ -40,7 +40,7 @@ Il sistema permette di:
 | Potenziometro 10k | 1 |
 | LED rossi | 4 |
 | Resistenze da 180Ω | 4 |
-| Resistenze da 220Ω | 1 |
+| Resistenza da 220Ω | 1 |
 | Breadboard | 1 |
 | Jumper wire | q.b. |
 
