@@ -97,6 +97,10 @@ Il progetto include il montaggio del circuito su breadboard e lo schema elettric
 
 <img width="1460" height="1134" alt="Schema elettrico della simulazione" src="https://github.com/user-attachments/assets/8650d35c-423a-453f-9834-fa96ae76d599" />
 
+### I Led in azione
+
+<img width="1080" height="1080" alt="animate-this-breadboard-so-only-the-four-red-led-r (1)" src="https://github.com/user-attachments/assets/7917fe22-b0ae-46c2-95cc-4f559326c118" />
+
 ***
 
 ##  Finalità didattica
