@@ -1,4 +1,4 @@
-# 📡 Arduino Radar Project
+#  Arduino Radar Project
 
 > Un piccolo progetto scolastico che trasforma **Arduino Uno** in un mini radar con sensore a ultrasuoni, servomotore, LED e display LCD.
 
@@ -8,7 +8,7 @@
 
 ***
 
-## ✨ Panoramica
+##  Panoramica
 
 Questo progetto realizza un **radar elettronico** in miniatura.
 Il sensore a ultrasuoni rileva la presenza di ostacoli, il servomotore sposta il sensore per scandire l'area, mentre Arduino elabora i dati e li mostra sul display LCD.
@@ -17,7 +17,7 @@ Il sensore a ultrasuoni rileva la presenza di ostacoli, il servomotore sposta il
 
 ***
 
-## 🎯 Obiettivo del progetto
+##  Obiettivo del progetto
 
 L'obiettivo è simulare il comportamento di un radar reale in modo semplice e didattico, utilizzando componenti base di Arduino.
 
@@ -29,7 +29,7 @@ Il sistema permette di:
 
 ***
 
-## 🛠️ Componenti utilizzati
+##  Componenti utilizzati
 
 | Componente | Quantità |
 |---|---:|
@@ -45,7 +45,7 @@ Il sistema permette di:
 
 ***
 
-## ⚙️ Funzionamento
+##  Funzionamento
 
 Il progetto segue una logica molto semplice:
 
@@ -59,7 +59,7 @@ In questo modo si ottiene un piccolo sistema di rilevamento capace di unire movi
 
 ***
 
-## 🔌 Struttura del circuito
+##  Struttura del circuito
 
 Il circuito è composto da più sezioni collegate tra loro:
 
@@ -72,7 +72,7 @@ Questa organizzazione rende il progetto ordinato, leggibile e facile da spiegare
 
 ***
 
-## 📂 Struttura della repository
+##  Struttura della repository
 
 ```bash
 Radar/
@@ -85,7 +85,7 @@ Radar/
 
 ***
 
-## 📸 Anteprima
+##  Anteprima
 
 Il progetto include il montaggio del circuito su breadboard e lo schema elettrico della simulazione.
 
@@ -99,7 +99,7 @@ Il progetto include il montaggio del circuito su breadboard e lo schema elettric
 
 ***
 
-## 📚 Finalità didattica
+##  Finalità didattica
 
 Questo lavoro è stato realizzato come progetto scolastico per applicare in pratica concetti di:
 
@@ -111,7 +111,7 @@ Questo lavoro è stato realizzato come progetto scolastico per applicare in prat
 
 ***
 
-## 🚀 Perché questo progetto è interessante
+##  Perché questo progetto è interessante
 
 Anche se è un progetto piccolo, mostra bene come pochi componenti possano lavorare insieme per creare un sistema completo.
 
@@ -123,6 +123,6 @@ Anche se è un progetto piccolo, mostra bene come pochi componenti possano lavor
 
 ***
 
-## 📄 Licenza
+##  Licenza
 
 Progetto realizzato a scopo didattico, con licenza MIT.
